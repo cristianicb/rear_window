@@ -3633,6 +3633,10 @@ hr {
     padding: 30px;
     height: 85vh;
   }
+  #menu {
+    right: 30px;
+    top: 30px;
+  }
   #menuWindow {
     width: 70%;
     right: 30px;
