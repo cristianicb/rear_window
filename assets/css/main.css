@@ -3575,6 +3575,7 @@ hr {
   overflow: hidden;
   border: solid 1px #00ff00;
   overflow-x: scroll;
+  position: relative;
 }
 
 #main #keys h2 {
@@ -3609,7 +3610,7 @@ hr {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #black;
+  background: black;
 }
 
 /* Handle */

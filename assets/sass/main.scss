@@ -5,10 +5,9 @@
 @import 'lib/fontface';
 @import 'lib/keyframes';
 $corporateColor: tomato;
-* {
-    // border: 1px solid $corporateColor;
-}
-
+// * {
+//     // border: 1px solid $corporateColor;
+// }
 html,
 body {
     font-size: $base * 2;
@@ -92,6 +91,7 @@ hr {
         overflow: hidden;
         border: solid 1px #00ff00;
         overflow-x: scroll;
+        position: relative;
         h2 {
             font-size: 1.2em;
             margin-left: 10px;
@@ -128,7 +128,7 @@ hr {
 /* Track */
 
  ::-webkit-scrollbar-track {
-    background: #black;
+    background: black;
 }
 
 
