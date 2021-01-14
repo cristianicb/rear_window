@@ -3659,10 +3659,11 @@ hr {
     float: left;
   }
   #main #keys {
-    height: 150px;
+    height: 80px;
     position: relative;
   }
   #main #keys h2 {
+    display: none;
     position: aboslute;
     width: 60%;
     font-size: 0.8em;
@@ -3676,7 +3677,7 @@ hr {
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin-left: 10px;
-    margin-top: 70px;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

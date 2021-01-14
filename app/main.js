@@ -96,10 +96,10 @@ let usersToDate = 6032343056;
 window.setInterval(
     function() {
         usersToDate += Math.floor(Math.random() * 50) + 1;
-        dataBase.innerHTML = "Data Base (Scroll horizontally): // Subjects to date: " + usersToDate;
+        dataBase.innerHTML = "Subjects to date: " + usersToDate;
     }, 1000);
 
-dataBase.innerHTML = "Data Base (Scroll horizontally): // Subjects to date: " + usersToDate;
+dataBase.innerHTML = "Subjects to date: " + usersToDate;
 
 
 // ANCHOR Make the word do stuff
