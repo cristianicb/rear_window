@@ -139,7 +139,7 @@ for (i = 0; i < allWords.length; i++) {
         function randomDate(start, end) {
             return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
         }
-        userBday.innerHTML = randomDate(new Date(1930, 0, 1), new Date(1980, 0, 1));
+        userBday.innerHTML = randomDate(new Date(1950, 0, 1), new Date(1990, 0, 1));
         userGender.innerHTML = faker.name.gender();
 
         function makeidNumber(length) {
