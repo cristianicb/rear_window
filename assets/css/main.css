@@ -3515,6 +3515,7 @@ hr {
 #main a {
   padding-right: 1em;
   color: #00ff00;
+  cursor: pointer;
 }
 
 #main #user {
@@ -3546,12 +3547,28 @@ hr {
   overflow-x: scroll;
 }
 
+#main #keys h2 {
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: fixed;
+}
+
+#main #keys h3 {
+  width: 100%;
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  position: fixed;
+}
+
 #main #keys p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .noise {
