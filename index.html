@@ -13,15 +13,91 @@
     <link rel="apple-touch-icon" href="./assets/img/icon.png" />
     <link rel="icon" href="./assets/img/favicon.png" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link href="./assets/css/main.css.map" />
+    <link rel="stylesheet" href="./assets/css/main.css.map" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
 </head>
 
 <body>
-    <div class="app">
-        <h1 class="modal_window">
-            <span class="fa fa-flag"></span>Empieza a escribir HTML aquí
-        </h1>
+    <div class="noise"></div>
+    <h1 class="title">Rear Window</h1>
+    <div id="main">
+        <div id="user">
+
+            <!-- <img src="" alt="" id="avatar" width="200" height="200"> -->
+            <div class="textLine">
+                <p>Name: </p>
+                <p id="name">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>City: </p>
+                <p id="city">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>GPS: </p>
+                <p id="position">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Money: </p>
+                <p id="money">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Iban: </p>
+                <p id="iban">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Close Friends: </p>
+                <p id="friends">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Enemies: </p>
+                <p id="enemies">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Fav Color: </p>
+                <p id="favCol">???</p>
+            </div>
+
+            <hr>
+
+            <br>
+            <div class="textLine">
+                <p>Email: </p>
+                <p id="email">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Password: </p>
+                <p id="pass">???</p>
+            </div>
+            <br>
+            <div class="textLine">
+                <p>Web: </p>
+                <p id="url">???</p>
+            </div>
+
+
+            <hr>
+            <br>
+            <div class="textLine">
+                <p>Fears: </p>
+                <p id="fears">???</p>
+            </div>
+        </div>
+
+        <div id="keys">
+            <p id="randomText"></p>
+        </div>
     </div>
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src='assets/lib/jquery.mousewheel.min.js'></script>
+    <script src="assets/lib/faker.js"></script>
     <script src="./app/main.js"></script>
 </body>
 

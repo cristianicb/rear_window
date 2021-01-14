@@ -4,10 +4,7 @@
 @import 'lib/fontawesome/font-awesome';
 @import 'lib/fontface';
 @import 'lib/keyframes';
-
-
 $corporateColor: tomato;
-
 * {
     // border: 1px solid $corporateColor;
 }
@@ -17,6 +14,98 @@ body {
     font-size: $base * 2;
     font-family: $font_family_base;
     line-height: $base * 3;
-    color: $body_color;
-    min-height: 100vh;
+    color: #00ff00;
+    max-height: 100vh;
+    background-color: black;
+    font-family: "VT323", monospace;
+}
+
+.title {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr {
+    border: solid 1px #00ff00;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    a {
+        padding-right: 1em;
+        color: #00ff00;
+    }
+    #user {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border: solid 1px #00ff00;
+        padding: 30px;
+        overflow-x: hidden;
+        .textLine {
+            display: inline-flex;
+            p {
+                font-size: 1.2em;
+                padding-right: 0.3em;
+                line-height: 0.5em;
+            }
+        }
+    }
+    #keys {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border: solid 1px #00ff00;
+        overflow-x: scroll;
+        p {
+            display: inline-flex;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.noise {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/noise.png");
+    background-repeat: repeat;
+    position: fixed;
+    z-index: 99;
+    pointer-events: none;
+}
+
+// ANCHOR scrollbar style
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #black;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #009900;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #00ff00;
 }
