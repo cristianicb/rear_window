@@ -3,6 +3,8 @@
 let randomText = document.getElementById("randomText");
 let user = document.getElementById("user");
 let dataBase = document.getElementById("dataBase");
+let menu = document.getElementById("menu");
+let menuWindow = document.getElementById("menuWindow");
 
 let userFacePic = document.getElementById("facePic");
 let userLastSeen = document.getElementById("lastSeen");
@@ -101,6 +103,16 @@ dataBase.innerHTML = "Data Base (Scroll horizontally): // Subjects to date: " + 
 
 
 // ANCHOR Make the word do stuff
+
+
+menu.onclick = function() {
+
+    if (menuWindow.style.display == "block") {
+        menuWindow.style.display = "none";
+    } else {
+        menuWindow.style.display = "block";
+    }
+}
 
 for (i = 0; i < allWords.length; i++) {
 
@@ -236,6 +248,8 @@ for (i = 0; i < allWords.length; i++) {
     }
 
 }
+
+
 
 
 

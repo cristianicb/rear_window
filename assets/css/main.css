@@ -3499,6 +3499,34 @@ hr {
   border: solid 1px #00ff00;
 }
 
+#menu {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  border: solid 1px #00ff00;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#menuWindow {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  z-index: 88;
+  width: 300px;
+  background-color: black;
+  border: solid 1px #00ff00;
+  padding: 20px;
+}
+
+#menuWindow h3 {
+  font-size: 1.4em;
+}
+
+#menuWindow p {
+  font-size: 1.2em;
+}
+
 #main {
   width: 100vw;
   height: 100vh;
@@ -3531,9 +3559,11 @@ hr {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  width: 100%;
 }
 
 #main #user .textLine p {
+  width: auto;
   font-size: 1.2em;
   padding-right: 0.3em;
   line-height: 0.5em;
@@ -3551,15 +3581,6 @@ hr {
   font-size: 1.2em;
   margin-left: 10px;
   margin-top: 10px;
-  position: fixed;
-}
-
-#main #keys h3 {
-  width: 100%;
-  font-size: 1.2em;
-  margin-left: 10px;
-  margin-top: 10px;
-  text-align: center;
   position: fixed;
 }
 
@@ -3599,5 +3620,62 @@ hr {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #00ff00;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  #main {
+    padding: 30px;
+  }
+  #menuWindow {
+    width: 70%;
+    right: 30px;
+    top: 30px;
+  }
+  #menuWindow {
+    right: 30px;
+    top: 30px;
+  }
+  #facePic {
+    width: 100%;
+  }
+  #lastSeen {
+    width: 100%;
+  }
+  #main #user {
+    padding: 15px;
+  }
+  #main #user .textLine {
+    display: inline;
+  }
+  #main #user .textLine p {
+    margin: 0;
+    width: auto;
+    font-size: 1.3em;
+    line-height: 1.1em;
+  }
+  #main #user .textLine p .float {
+    float: left;
+  }
+  #main #keys {
+    height: 150px;
+  }
+  #main #keys h2 {
+    width: 60%;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: fixed;
+  }
+  #main #keys p {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 70px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
