@@ -3582,7 +3582,7 @@ hr {
   font-size: 1.2em;
   margin-left: 10px;
   margin-top: 10px;
-  position: fixed;
+  position: absolute;
 }
 
 #main #keys p {
@@ -3627,6 +3627,7 @@ hr {
   .title {
     font-size: 1em;
     margin-top: 5px;
+    position: absolute;
   }
   #main {
     padding: 30px;
@@ -3662,10 +3663,9 @@ hr {
   }
   #main #keys h2 {
     width: 60%;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-left: 10px;
     margin-top: 10px;
-    position: fixed;
   }
   #main #keys p {
     display: -webkit-inline-box;

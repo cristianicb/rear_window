@@ -96,7 +96,7 @@ hr {
             font-size: 1.2em;
             margin-left: 10px;
             margin-top: 10px;
-            position: fixed;
+            position: absolute;
         }
         p {
             display: inline-flex;
@@ -149,6 +149,7 @@ hr {
     .title {
         font-size: 1em;
         margin-top: 5px;
+        position: absolute;
     }
     #main {
         padding: 30px;
@@ -184,10 +185,9 @@ hr {
             height: 150px;
             h2 {
                 width: 60%;
-                font-size: 1em;
+                font-size: 0.8em;
                 margin-left: 10px;
                 margin-top: 10px;
-                position: fixed;
             }
             p {
                 display: inline-flex;
