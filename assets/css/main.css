@@ -3660,12 +3660,16 @@ hr {
   }
   #main #keys {
     height: 150px;
+    position: relative;
   }
   #main #keys h2 {
+    position: aboslute;
     width: 60%;
     font-size: 0.8em;
     margin-left: 10px;
     margin-top: 10px;
+    top: 0;
+    left: 0;
   }
   #main #keys p {
     display: -webkit-inline-box;
